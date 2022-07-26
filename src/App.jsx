@@ -1,5 +1,7 @@
 import { createTheme, NextUIProvider } from '@nextui-org/react'
-import Button from '@nextui-org/react/button'
+
+import Quiz from './components/Quiz'
+import { GlobalStateProvider } from './machines/GlobalStateProvider'
 
 const darkTheme = createTheme({
   type: 'dark',
@@ -8,7 +10,9 @@ const darkTheme = createTheme({
 function App() {
   return (
     <NextUIProvider theme={darkTheme}>
-      <Button>Click me</Button>
+      <GlobalStateProvider>
+        <Quiz />
+      </GlobalStateProvider>
     </NextUIProvider>
   )
 }
