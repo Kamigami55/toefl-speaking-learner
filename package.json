@@ -12,8 +12,10 @@
   "dependencies": {
     "@nextui-org/react": "1.0.0-beta.9",
     "@tauri-apps/api": "^1.0.2",
+    "@xstate/react": "^3.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "xstate": "^4.32.1"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.0.5",
