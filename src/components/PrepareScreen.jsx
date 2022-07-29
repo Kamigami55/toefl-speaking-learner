@@ -135,7 +135,7 @@ export default function PrepareScreen() {
 
       <Spacer y={2} />
       <Button color="success" shadow size="lg" onClick={handleStartRecording}>
-        Start Recording
+        Start!
       </Button>
       <Spacer y={1} />
       <Button color="error" light onClick={handleQuit}>

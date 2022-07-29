@@ -54,15 +54,16 @@ export default function FinishScreen() {
       </Card>
       <Spacer y={2} />
       <Text h3 color="success">
-        Recording saved!
+        {/* Recording saved! */}
+        Finished!
       </Text>
       <Spacer y={2} />
-      <Button color="success" size="lg">
+      {/* <Button color="succesds" size="lg">
         Play Your Recording
-      </Button>
+      </Button> */}
       <Spacer y={1} />
-      <Button color="error" onClick={handleRedoQuiz}>
-        Redo This Quiz
+      <Button color="error" size="lg" onClick={handleRedoQuiz}>
+        Retry
       </Button>
       <Spacer y={1} />
       <Button color="secondary" onClick={handleReturnHome}>

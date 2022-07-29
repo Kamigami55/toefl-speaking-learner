@@ -80,7 +80,8 @@ export default function RecordScreen() {
         onComplete={() => setTimeout(handleFinish, 1000)}
       />
       <Spacer y={1} />
-      <Text h3>Recording...</Text>
+      {/* <Text h3>Recording...</Text> */}
+      <Text h3>Start speak...</Text>
       <Spacer y={1} />
       <Button color="error" light onClick={handleQuit}>
         Quit
